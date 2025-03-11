@@ -110,3 +110,7 @@ resource "local_file" "jenkins_private_key_file" {
 output "jenkins_public_ip" {
   value = aws_instance.jenkins.public_ip
 }
+
+output "jenkins_public_ip" {
+  value = aws_instance.jenkins.public_ip
+}
